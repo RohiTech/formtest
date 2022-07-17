@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Form Test
+Bundle-SymbolicName: org.rohitech.formtest;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: RohiTech
+Automatic-Module-Name: org.rohitech.formtest
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.adempiere.base;bundle-version="8.2.0",
+ org.adempiere.plugin.utils;bundle-version="8.2.0",
+ org.adempiere.ui;bundle-version="8.2.0",
+ org.adempiere.ui.zk;bundle-version="8.2.0",
+ zk;bundle-version="9.5.0"
+Import-Package: org.zkoss.zul;version="9.5.0.1",
+ org.zkoss.zul.impl
+Bundle-ActivationPolicy: lazy
+Service-Component: OSGI-INF/InvoiceFactory.xml
